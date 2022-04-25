@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>projectX</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="backgroundVideo">
+      <video
+        class="backgroundVideoMedia"
+        src="Space Journey 4K UHD by Blue Wave Studio.mp4"
+        height="100%"
+        loop
+      ></video>
+    </div>
+    <div id="menu">
+      <span class="menuHome">HOME</span>
+      <span class="menuWork">WORK</span>
+      <a
+        class="menuInsta"
+        href="https://www.instagram.com/mr.alexsoul/"
+        target="_blank"
+        >INSTA</a
+      >
+      <span class="menuAbout" onclick="menuAboutBtn()">ABOUT</span>
+    </div>
+    <div class="firstText">
+      Hi! My name is Alex <br />
+      I am a web developer and this is one of my creations -<br />
+      the place where you can get to know me and my works
+    </div>
+    <div class="startBtnSpawn">START</div>
+    <div>
+      <div class="wellcomeWord">TELL ME</div>
+      <form target="myIFR">
+        <input
+          id="personName"
+          type="text"
+          autocomplete="off"
+          placeholder="YOUR NAME?"
+        />
+        <input id="enterBtn" type="submit" value="ENTER" onclick="getName()" />
+      </form>
+    </div>
+    <div>
+      <h1 class="name">name</h1>
+    </div>
+    <div class="contentWork">
+      <div class="textWork">THIS IS MY FIRST SITE, BUT IN THE FUTURE...</div>
+    </div>
+    <div class="contentAbout">
+      <img class="imageAbout" src="myOldPhoto.jpeg" />
+      <span class="textAbout">text</span><br />
+    </div>
+    <iframe name="myIFR" style="display: none"></iframe>
+    <script src="script.js"></script>
+  </body>
+</html>
